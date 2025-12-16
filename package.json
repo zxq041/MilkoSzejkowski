@@ -1,32 +1,15 @@
 {
-  "name": "milkshake-bar-backend",
+  "name": "milkshakebar",
   "version": "1.0.0",
-  "description": "Backend dla MilkShake Bar z panelem administratora i rezerwacjami",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
-  "keywords": [
-    "milkshake",
-    "bar",
-    "rezerwacje",
-    "admin",
-    "socket.io"
-  ],
-  "author": "zxq",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.0.0",
     "cors": "^2.8.5",
-    "socket.io": "^4.8.1",
-    "body-parser": "^1.20.2",
-    "multer": "^1.4.5-lts.1",
-    "mongoose": "^8.9.0",
-    "engines": { "node": ">=18" }
-
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
+    "socket.io": "^4.7.5"
   }
 }
